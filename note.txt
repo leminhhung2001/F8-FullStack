@@ -1,0 +1,27 @@
+1. Header(Dau Trang)
+2. Navigation(Dieu Huong)
+3. Breadcrumb()
+4. Sidebar(Một cái thanh thường đặt ở phía cạnh màn hành)
+5. Slider(Nội dung của trang có thể  là hình ảnh hay là bình luận,.. nhưng thấy nó trượt là được)
+6. Content(Nội dung)
+7. Footer(Chân trang)
+8. Banner
+
+
+Đề  tài: Lập trang web The Band
+1. Phân tích -> OK
+    1. Header
+    2. Slider
+    3. Content
+        1. About
+        2. Tour
+        3. Contact
+        4. Image
+        5. Footer
+    4. Footer
+2. Dựng base(xây móng)
+3. Xây dựng từng thành phần theo phân tích
+4. Hoàn thiện
+
+
+  
