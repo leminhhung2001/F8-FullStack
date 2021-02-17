@@ -69,7 +69,7 @@ Validator.minLength = function(selector, min) {
     return {
         selector: selector,
         test: function (value) {
-            return value >= min ? undefined : `Vui lòng nhập tối thiểu ${min} ký tự`
+            return value.length >= min ? undefined : `Vui lòng nhập tối thiểu ${min} ký tự`
         }
     }
 }
