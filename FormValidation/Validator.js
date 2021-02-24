@@ -132,6 +132,7 @@ function Validator(options) {
 
             var inputElements = formElement.querySelectorAll(rule.selector)
             
+            //Convert từ Nodelist sang mảng rồi lặp 
             Array.from(inputElements).forEach(function(inputElement) {
                 if(inputElement) {
                     //Xử lý trường hợp blur khỏi input
