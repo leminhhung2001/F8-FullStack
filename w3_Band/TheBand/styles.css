@@ -1,0 +1,156 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+/* Navbar */
+#nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav_left {
+  /* flex: 10; */
+}
+
+.nav_left_ul {
+  display: flex;
+}
+
+.nav_item > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 20px;
+}
+
+.nav_item {
+  list-style-type: none;
+}
+
+.nav_left_ul > .nav_item > a {
+  color: aliceblue;
+}
+
+.nav_left_ul > .nav_item:hover > a {
+  color: #000 !important;
+  transition: linear 0.3s;
+  background-color: #ccc !important;
+}
+
+.nav_search {
+  padding: 5px 2px;
+}
+
+#nav .nav_search:hover {
+  background-color: red;
+  transition: linear 0.3s;
+}
+
+.fa-search {
+  color: antiquewhite;
+  font-size: 1.3rem;
+  padding: 14px 15px 0 15px;
+}
+
+#nav .subnav {
+  list-style-type: none;
+  position: absolute;
+  top: 35px;
+  right: -52px;
+  /* display: flex; */
+  padding-left: 0;
+  /* flex-direction: column; */
+  background-color: #fff;
+  box-shadow: 3px 3px 7px grey;
+}
+
+/* tính chất display: block là nó sẽ kế thừa hết chiều ngang thẻ chứa nó */
+
+#nav .subnav li {
+  min-width: 120px;
+  padding: 16px 0;
+}
+
+#nav .subnav a {
+  width: 130px;
+  color: #000;
+  display: block;
+  padding: 16px 0 16px 20px;
+  margin: -16px 0;
+}
+
+#nav .subnav a:hover {
+  background-color: #ccc;
+  /* flex: 1; */
+}
+
+.fa-angle-down {
+  color: red;
+}
+
+#nav .subnav {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+#nav .relative:hover .subnav {
+  display: block;
+}
+
+/* End Navbar */
+
+/* Slider */
+#slider {
+  position: relative;
+  padding-top: 50%;
+  background: url("/TheBand/img/slider/img1.jpg") top center / cover no-repeat;
+  /* background-color: chocolate;
+  height: 1000px; */
+}
+
+/* #slider .chicago {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 40px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#slider .chicago {
+  text-align: center;
+}
+h3 {
+  font-size: 24px;
+} */
