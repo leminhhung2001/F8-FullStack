@@ -1,0 +1,31 @@
+.fl {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.pwd {
+  background-color: azure;
+  /* width: 800px; */
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1 {
+  margin: 20px 25px 25px;
+}
+
+input {
+  padding: 10px 171px 10px 10px;
+  margin-left: -18px;
+  font-size: 14px;
+  border: solid 2px #f0f0f0;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+i {
+  margin-left: -40px;
+  cursor: pointer;
+}
