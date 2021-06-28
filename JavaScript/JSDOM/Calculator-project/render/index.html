@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container my-4">
+  
+    <div class="calculator card">
+  
+      <input type="text" class="calculator-screen z-depth-1" value=""/>
+  
+      <div class="calculator-keys">
+  
+        <input type="button" onclick="display('+')" class="operator btn btn-info" value="+"></input>
+        <input type="button" onclick="display('-')" class="operator btn btn-info" value="-"></input>
+        <input type="button" onclick="display('*')" class="operator btn btn-info" value="*"></input>
+        <input type="button" onclick="display('/')" class="operator btn btn-info" value="/"></input>
+  
+        <input type="button" value="7" onclick="display('7')" class="btn btn-light waves-effect"></input>
+        <input type="button" value="8" onclick="display('8')" class="btn btn-light waves-effect"></input>
+        <input type="button" value="9" onclick="display('9')" class="btn btn-light waves-effect"></input>
+  
+  
+        <input type="button" value="4" onclick="display('4')" class="btn btn-light waves-effect"></input>
+        <input type="button" value="5" onclick="display('5')" class="btn btn-light waves-effect"></input>
+        <input type="button" value="6" onclick="display('6')" class="btn btn-light waves-effect"></input>
+  
+  
+        <input type="button" value="1" onclick="display('1')" class="btn btn-light waves-effect"></input>
+        <input type="button" value="2" onclick="display('2')" class="btn btn-light waves-effect"></input>
+        <input type="button" value="3" onclick="display('3')" class="btn btn-light waves-effect"></input>
+  
+  
+        <input type="button" value="0" onclick="display('0')" class="btn btn-light waves-effect"></input>
+        <input type="button" onclick="display('.')" class="decimal function btn btn-secondary" value="."></input>
+        <input type="button" class="all-clear function btn btn-danger btn-sm" onclick="clearText()" value="AC"></input>
+  
+        <input type="button" onclick="calculator()" class="equal-sign operator btn btn-default" value="="></input>
+  
+      </div>
+    </div>
+  </div>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>
