@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  padding-top: 200px;
+}
+
+form {
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  background: transparent !important;
+  border: none !important;
+  margin-left: -60px;
+}
+
+.bi-plus-circle {
+  font-size: 20px;
+  color: rgb(22, 21, 58);
+}
+
+/* input */
+.input {
+  width: 350px !important;
+  font-size: 24px;
+}
+
+/* list */
+.list > li {
+  list-style-type: none;
+  margin: 5px 0;
+  width: 350px;
+  display: flex;
+  margin-left: 388px;
+}
+
+li > .form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid #ccc !important;
+}
+
+li > div > button:focus,
+.btn-primary {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none;
+}
+
+.del {
+  margin-left: -20px !important;
+  padding-left: 0 !important;
+}
+
+/* custom */
+.custom {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* complete */
+.completed {
+  text-decoration: line-through !important;
+}
